@@ -1,0 +1,30 @@
+.eachrow{
+    
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center !important;
+    margin-left: 20px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.eachrow .icon{
+    margin : 0 !important;
+    padding: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 32px;
+}
+
+.eachrow h2{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.active{
+    color : red
+}
