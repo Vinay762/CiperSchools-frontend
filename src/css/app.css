@@ -1,0 +1,27 @@
+body{
+    margin : 0;
+    padding: 0;
+}
+
+.app{
+    margin-left: 7%;
+    margin-right : 7%;
+}
+
+.rest_all{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.left-side {
+    width: 25%;
+  }
+  
+  .feed {
+    width: 50%;
+  }
+  
+  .right-side {
+    width: 25%;
+}

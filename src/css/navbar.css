@@ -1,0 +1,65 @@
+.fullNavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+    position : sticky;
+    top : 0;
+    
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    z-index: 1000;
+}
+
+.header-logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-logo img{
+    height: 40px;
+    width: 40px;
+}
+
+.header-logo-text{
+    font-size: 30px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    padding: 0 2px;
+}
+
+
+.text{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    cursor: pointer;
+}
+
+.icon svg{
+    width: 28px;
+    height: 28px;
+    
+}
+
+.avatar img{
+    height: 28px;
+    width: 28px;
+    
+}
+
+.icon{
+    margin-right : 10px;
+}
+
+.avatar{
+    margin-left: 10px;
+    margin-right: 10px;
+}
