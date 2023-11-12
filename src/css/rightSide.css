@@ -1,3 +1,73 @@
 .right{
-    border: 1px solid green;
+    margin-top : 15px;
+    
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #F7F9F9;
+    
+}
+
+.trendingPosts{
+    padding : 10px 5px;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    
+}
+
+.usernameandday{
+    display: flex;
+}
+
+.usernameandday .user{
+    margin-left : 15px;
+    margin-right : 15px;
+    font-weight: bold;
+}
+
+.usernameandday .day{
+    color : red;
+}
+
+.textandImage{
+    display: flex;
+    padding-top : 2px;
+}
+
+.textandImage .text{
+    font-size: 15px;
+    margin-left : 10px;
+    margin-right : 8px;
+    line-height: 1;
+    font-weight: 300;
+    direction: ltr;
+    text-align: justify;
+}
+
+.textandImage .image img{
+    width : 80px;
+    height : 50px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.slider{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.slider::-webkit-scrollbar{
+    display: none;
+}
+
+.eachRow{
+    margin-top : 5px;
+    margin-bottom: 5px;
 }

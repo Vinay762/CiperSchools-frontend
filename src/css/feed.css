@@ -1,0 +1,41 @@
+.x{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.x::-webkit-scrollbar {
+    display: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+
+.posts{
+    height: 45px;
+    cursor: pointer;
+    flex: 1;
+    font-size: 20px;
+    
+}
+
+.opportunity{
+    cursor: pointer;
+    height: 45px;
+    flex : 1;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+/* feed  */
+

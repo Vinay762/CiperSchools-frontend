@@ -1,0 +1,72 @@
+
+
+.row{
+    height : 40px !important;
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding : 0 8px;
+}
+
+.user{
+    margin: 0;
+    padding : 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user .image img{
+    height: 35px !important;
+    width: 35px !important;
+    border-radius: 50%;
+    margin-right: 7px;
+    object-fit: cover;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text .username{
+    margin : 0;
+    padding: 0;
+    font-size: small;
+    font-weight: 100;
+}
+
+.text .name{
+    margin: 0;
+    padding: 0;
+    margin-top : -10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+
+.follow .icon {
+    font-size: 5px !important;
+    color : red;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.icon svg{
+    font-size: 10px;
+}
+
+.follow .text{
+    font-size: 14px;
+    font-weight: 400;
+}

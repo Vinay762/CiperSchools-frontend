@@ -1,11 +1,14 @@
 .card{
-    margin-top: 20px;
+    margin-top: 20px !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 250px;
-    height : 250px;
+    height : auto;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-sizing: content-box;
+    padding-top : 15px !important;
+    padding-bottom: 15px !important;
 }
